@@ -76,3 +76,7 @@ audio{
       0% {-webkit-transform: translateX(0%);}
         100% {-webkit-transform: translateX(-200%);}
   }
+
+  .card3{
+    margin-left:450px;
+  }

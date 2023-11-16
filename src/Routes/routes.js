@@ -17,6 +17,8 @@ import Tracks from "../pages/Home/Search/SearchForArtist/Tracks";
 import SidebarMusicPlayerSearch from "../pages/Home/Music_Player/Sidebar+MusicPlayerSearch";
 import ArtistSlide from "../pages/Home/Search/ArtistSlide/Artist_Slide";
 import SidebarArtistSlide from "../pages/Home/Search/ArtistSlide/SidebarArtistSlide";
+import ArtistNext from "../pages/Home/Artists/ArtistNext";
+import SlidebarArtistNext from "../pages/Home/Artists/SlidebarArtistNext";
 
 export const routes = [
   {
@@ -79,5 +81,13 @@ export const routes = [
   {
     path: "/artist/new/:id",
     component: SidebarArtistSlide,
+  },
+  {
+    path: "/artist/:name/:id",
+    component: SlidebarArtistNext,
+  },
+  {
+    path: "/favour",
+    component: Favourites,
   },
 ];

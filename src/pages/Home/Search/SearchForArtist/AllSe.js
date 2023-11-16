@@ -117,7 +117,7 @@ function AllSe() {
         </InputGroup>
       </Container>
       <Container>
-        <Row style={{ marginLeft: "200px" }} className="row row-cols-4">
+        <Row className="row row-cols-3">
           {albums.map((album, i) => (
             <Card key={i}>
               <Card.Img src={img} />

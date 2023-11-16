@@ -10,6 +10,7 @@ function AllSearch() {
   const location = useLocation();
   let username = location.state ? location.state.username : null;
 
+  console.log(username);
   const handleLogout = () => {
     username = "";
     navigate("/");
@@ -47,7 +48,6 @@ function AllSearch() {
               >
                 <li class="nav-item">
                   <a
-                    href="#"
                     class="nav-link align-middle px-0 anchor"
                     onClick={() => handleHome()}
                   >

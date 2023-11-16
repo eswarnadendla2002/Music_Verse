@@ -45,7 +45,9 @@ const Artists = () => {
                 return (
                   <>
                     <div>
-                      <Link to="">
+                      <Link
+                        to={`/artist/${items.name.split(" ")[0]}/${items.id}`}
+                      >
                         {" "}
                         <li class="card-artist radius">
                           <img src={items.images[0].url} alt=""></img>

@@ -227,10 +227,7 @@ const MusicPlayer = () => {
                   </span>
                 </p>
               </div>
-              <div
-                className="card"
-                style={{ marginLeft: "450px", width: "19rem" }}
-              >
+              <div className="card card3" style={{ width: "19rem" }}>
                 <img
                   className="card-img-top"
                   src={songs[0].images[0].url}
